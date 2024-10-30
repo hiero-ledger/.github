@@ -6,6 +6,9 @@ Hiero is an open-source, vendor-neutral distributed ledger technology. Hiero is 
 
 You can find more information at our [website](https://hiero.org).
 
+![repository-open-graph-template-2](https://github.com/user-attachments/assets/c0a1df9c-2a13-42ec-82ba-5e0df044750e)
+
+
 ## Resources
 
 The following documents will help you to understand our vision, workflows and community. More documents will be added in near future.
