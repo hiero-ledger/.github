@@ -11,7 +11,7 @@ body:
         Before submitting:
         * Try searching the existing issues and discussions to see if something similar has been discussed previously
         * Try opening a GitHub discussion first to gather feedback and reach consensus
-        * If this is a major enhancement, please open a [Hedera Improvement Proposal](https://github.com/hashgraph/hedera-improvement-proposal)
+        * If this is a major enhancement, please open a [Hiero Improvement Proposal](https://github.com/hiero-ledger/hiero-improvement-proposals)
   - type: textarea
     id: problem
     attributes:
