@@ -2,7 +2,7 @@
 
 ## About this document
 
-This document defines how security vulnerability reporting is handled in Hiero, an LF Decentralized Trust Project. The approach aligns with the [LF Decentralized Trust Security Policy](https://lf-decentralized-trust.github.io/governance/governing-documents/SECURITY-POLICY). Please review that document to understand the basis of the security reporting for Hiero.
+This document defines how security vulnerability reporting is handled in Hiero, an [LF Decentralized Trust Project](https://www.lfdecentralizedtrust.org/). The approach aligns with the [LF Decentralized Trust Security Policy](https://lf-decentralized-trust.github.io/governance/governing-documents/SECURITY-POLICY). Please review that document to understand the basis of the security reporting for Hiero.
 
 This vulnerability policy borrows heavily from the recommendations of the OpenSSF Vulnerability Disclosure working group. For up-to-date information on the latest recommendations related to vulnerability disclosures, please visit the [GitHub of that working group](https://github.com/ossf).
 
@@ -64,11 +64,11 @@ For LFDT or Community Projects
 
 Hiero has the following ways to submit security vulnerabilities. While the security team members will do their best to respond to bugs disclosed in all possible ways, it is encouraged for bug finders to report through the following approved channels:
 
-Email the LF Decentralized Trust Foundation security list: To report a security issue, please send an email with the name of the project/repository, a description of the issue, the steps you took to create the issue, affected versions, and if known, mitigations. If in triaging the email, the security team determines the issue may be a security vulnerability, a GitHub security vulnerability report will be opened.
+Open a GitHub security vulnerability report: Open a draft security advisory on the “Security” tab of this GitHub repository. See [GitHub Security Advisories](https://docs.github.com/en/code-security/security-advisories) to learn more about the security infrastructure in GitHub.
 
-Open a GitHub security vulnerability report: Open a draft security advisory on the “Security” tab of this GitHub repository. See GitHub Security Advisories to learn more about the security infrastructure in GitHub.
+For Hedera repositories details on the bug bounty program can be found at: [Hedera Bug Bounty Program](https://hedera.com/bounty).
 
-For Hedera repositories details on the bug bounty program can be found at: [Hedera Bug Bounty Program](https://hedera.com/bounty)
+For general questions, excluding security reports, please email the [Hiero Security Team](mailto:hiero-security@lists.lfdecentralizedtrust.org).
 
 ## CNA/CVE Reporting
 
@@ -76,14 +76,14 @@ Hiero maintains a list of Common Vulnerabilities and Exposures (CVE) and uses Gi
 
 ## Embargo List
 
-Hiero maintains a private embargo list. If you wish to be added to the embargo list, please email the LF Decentralized Trust Foundation security mailing list, including the project name (Hiero) and reason for being added to the embargo list. Requests will be assessed by the Hiero security team in conjunction with the appropriate LF Decentralized Trust Staff, and a decision will be made to accommodate or not the request.
+Hiero maintains a private embargo list. If you wish to be added to the embargo list, please email the [Hiero Security Team](mailto:hiero-security@lists.lfdecentralizedtrust.org), including the project name (Hiero) and reason for being added to the embargo list. Requests will be assessed by the Hiero security team in conjunction with the appropriate LF Decentralized Trust Staff, and a decision will be made to accommodate or not the request.
 
-For more information about the embargo list, please see the Embargo List section of the LF Decentralized Trust Security Policy.
+For more information about the embargo list, please see the Embargo List section of the [LF Decentralized Trust Security Policy](https://lf-decentralized-trust.github.io/governance/governing-documents/security.html#embargo-list).
 
 ## GitHub Security Advisories
 
-Hiero uses GitHub Security Advisories to manage the public disclosure of security vulnerabilities.
+Hiero uses [GitHub Security Advisories](https://docs.github.com/en/code-security/security-advisories) to manage the public disclosure of security vulnerabilities.
 
 ## Private Patch Deployment Infrastructure
 
-In creating patches and new releases that address security vulnerabilities, Hiero uses the private development features of GitHub for security vulnerabilities. GitHub has extensive documentation about these features.
+In creating patches and new releases that address security vulnerabilities, Hiero uses the private development features of GitHub for security vulnerabilities. [GitHub](https://docs.github.com/en/code-security) has extensive documentation about these features.
