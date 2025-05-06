@@ -68,7 +68,7 @@ Open a GitHub security vulnerability report: Open a draft security advisory on t
 
 For Hedera repositories details on the bug bounty program can be found at: [Hedera Bug Bounty Program](https://hedera.com/bounty).
 
-For general questions, excluding security reports, please email the [Hiero Security Team](mailto:hiero-security@lists.lfdecentralizedtrust.org).
+For general questions, excluding security reports, please email the [Hiero Security Team](mailto:hiero@lists.lfdecentralizedtrust.org).
 
 ## CNA/CVE Reporting
 
@@ -76,7 +76,7 @@ Hiero maintains a list of Common Vulnerabilities and Exposures (CVE) and uses Gi
 
 ## Embargo List
 
-Hiero maintains a private embargo list. If you wish to be added to the embargo list, please email the [Hiero Security Team](mailto:hiero-security@lists.lfdecentralizedtrust.org), including the project name (Hiero) and reason for being added to the embargo list. Requests will be assessed by the Hiero security team in conjunction with the appropriate LF Decentralized Trust Staff, and a decision will be made to accommodate or not the request.
+Hiero maintains a private embargo list. If you wish to be added to the embargo list, please email the [Hiero Security Team](mailto:hiero@lists.lfdecentralizedtrust.org), including the project name (Hiero) and reason for being added to the embargo list. Requests will be assessed by the Hiero security team in conjunction with the appropriate LF Decentralized Trust Staff, and a decision will be made to accommodate or not the request.
 
 For more information about the embargo list, please see the Embargo List section of the [LF Decentralized Trust Security Policy](https://lf-decentralized-trust.github.io/governance/governing-documents/security.html#embargo-list).
 
