@@ -1,4 +1,4 @@
-# <Repo Name>
+# Project Name
 
  [CI Link][Documentation Link][Best Practice Score Link][License Link]
 
