@@ -5,7 +5,7 @@ The following links are references to the sites where the project is being proce
 For an example on how to add these links and format them, use: https://github.com/hyperledger/fabric/blob/main/README.md
 Having this accessible can help reducing time looking for these sites.
 -->
-[CI Link][Documentation Link][OpenSSF Score Card][CII Best Practices][Security Scan Links][License Link]
+[CI Link][Documentation Link][OpenSSF Score Card][CII Best Practices][Security Scan Links][Global Security File Link][License Link]
 
 <!---
 Releases link can be oomitted for non-code repos
