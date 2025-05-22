@@ -58,6 +58,8 @@ Links to issues and discussions.
 
 <!---
 Reference to the Maintainers file and end users information.
+The project's MAINTAINERS.md should reference the main rules and groups file located in https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md
+This section should also reference it unless the project has been approved by the TSC to follow a different guideline. 
 -->
 ## About Users and Maintainers
 
