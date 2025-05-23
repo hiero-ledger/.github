@@ -43,10 +43,11 @@ Getting Started information needs to offer guidance on how to get familiarized w
 <!---
 Contibute links and guidelines that the project is following. References to exceptions to the main guidelines need to be includded. 
 Security file information and reference to security guidelines.
+By default, refer to https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md unless the project has a different local file.
 -->
 ## Contribute
 
-- Reference to the contibution guidelines.
+- To contribute, please refer to the **[Hiero-Ledger's contribution guidelines](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md)**
 
 <!---
 Help and Community includes discord channels, meeting information or references where new members can ask questions. 
@@ -58,12 +59,12 @@ Links to issues and discussions.
 
 <!---
 Reference to the Maintainers file and end users information.
-The project's MAINTAINERS.md should reference the main rules and groups file located in https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md
+By default, the project's MAINTAINERS.md should reference the main rules and groups file located in https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md
 This section should also reference it unless the project has been approved by the TSC to follow a different guideline. 
 -->
 ## About Users and Maintainers
 
-- Who maintains and contributes to the project?
+- Users and Maintainers guidelies can be located in **[Hiero-Ledger's roles and groups guidelines](https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md#maintainers).**
 
 <!---
 Recognition to past contributors or mentions of collaborating companies.
