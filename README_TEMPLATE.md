@@ -64,7 +64,7 @@ This section should also reference it unless the project has been approved by th
 -->
 ## About Users and Maintainers
 
-- Users and Maintainers guidelies can be located in **[Hiero-Ledger's roles and groups guidelines](https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md#maintainers).**
+- Users and Maintainers guidelies are located in **[Hiero-Ledger's roles and groups guidelines](https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md#maintainers).**
 
 <!---
 Recognition to past contributors or mentions of collaborating companies.
