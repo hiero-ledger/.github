@@ -1,32 +1,44 @@
-# .github
+# Project Name
 
 <!---
 The following links are references to the sites where the project is being processed for statistics and/or tracked for progress.
 For an example on how to add these links and format them, use: https://github.com/hyperledger/fabric/blob/main/README.md
 Having this accessible can help reducing time looking for these sites.
 -->
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10697/badge)](https://bestpractices.coreinfrastructure.org/projects/10697)
+[CI Link][Documentation Link][OpenSSF Score Card][CII Best Practices][Security Scan Links][Global or Repo Security File Link][License Link]
+
+<!---
+Releases link can be oomitted for non-code repos
+-->
+## Releases
+
+[Current Releases Link]
+
+[Historic Releases Links]
 
 <!---
 Any additional links useful to the team. For example, meetings, events, training material, etc.
 -->
 ## Useful References
 
- - [Hiero Website](https://hiero.org)
+ - Reference1
+ - Reference2
+ - Reference3
    
 <!---
 About Project information needs to be comprehensive and useful for new members to be able to understand it's goals. 
 -->
 ## About Project
-
-This repository holds organization-wide configurations, templates, and guidelines for contributing to our projects on GitHub.
+- History/backround of how the project came to be and/or need that is addressing. 
+- What the project does?
+- Why is the project useful?
 
 <!---
 Getting Started information needs to offer guidance on how to get familiarized with the project and any information on how to set up your local environment (when applicable).
 -->
 ## Getting Started
 
-- For a comprehensive and detailed overview of Hiero, please refer to the technical documentation and related resources available on our [website](https://hiero.org).
+- How users can get started with the project?
 
 <!---
 Contibute links and guidelines that the project is following. References to exceptions to the main guidelines need to be includded. 
@@ -43,9 +55,7 @@ Links to issues and discussions.
 -->
 ## Help/Community
 
-- Engage with the Hyperledger community:
-  - **[hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/)**
-  - **[Public Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week)**
+- Where users can get help with your project
 
 <!---
 Reference to the Maintainers file and end users information.
@@ -59,7 +69,13 @@ This section should also reference it unless the project has been approved by th
 <!---
 Recognition to past contributors or mentions of collaborating companies.
 -->
+## Acknowledgements
 
+- Special thanks and recognition.
+
+<!---
+Descriptive information on License for the project.
+-->
 ## License
 
-- Hiero's source code is available under the **Apache License, Version 2.0 (Apache-2.0)**
+- License information.
