@@ -14,22 +14,22 @@ Maintainers are assigned the following scopes in this repository:
 
 ## Active Maintainers
 
-<!-- Please keep this sorted alphabetically by github -->
-
-| Name             | GitHub ID     | Scope              | LFID | Discord ID | Email | Company Affiliation  |
-|----------------- | ------------- | ------------------ | ---- | ---------- | ----- | -------------------- |
-| Lenin Mehedy     | leninmehedy   | github-maintainers |      |            |       | Hashgraph            |
-| Jeromy Cannon    | jeromy-cannon | github-maintainers |      |            |       | Hashgraph            |
-| Nathan Klick     | nathanklick   | github-maintainers |      |            |       | Hashgraph            |
-| Pavel Borisov    | PavelSBorisov | github-maintainers |      |            |       | LimeChain            |
-| Roger Barker     | rbarker-dev   | github-maintainers |      |            |       | Hashgraph            |
-| Andrew Brandt    | andrewb1269hg | github-maintainers |      |            |       | Hashgraph            |
-| Richard Bair     | rbair23       | tsc                |      |            |       | Hashgraph            |
-| Leemon Baird     | lbaird        | tsc                |      |            |       | Hashgraph            |
-| George Spasov    | Perseverance  | tsc                |      |            |       | LimeChain            |
-| Hendrik Ebbers   | hendrikebbers | tsc                |      |            |       | Hashgraph            |
-| Alex Popowycz    | popowycz      | tsc                |      |            |       | Hedera               |
-| Stoyan Panayotov | stoqnkpL      | tsc                |      |            |       | LimeChain            |
+| Name                   | GitHub ID     | Scope              | LFID | Discord ID | Email | Company Affiliation  |
+|----------------------- | ------------- | ------------------ | ---- | ---------- | ----- | -------------------- |
+| Lenin Mehedy           | leninmehedy   | github-maintainers |      |            |       | Hashgraph            |
+| Jeromy Cannon          | jeromy-cannon | github-maintainers |      |            |       | Hashgraph            |
+| Nathan Klick           | nathanklick   | github-maintainers |      |            |       | Hashgraph            |
+| Pavel Borisov          | PavelSBorisov | github-maintainers |      |            |       | LimeChain            |
+| Roger Barker           | rbarker-dev   | github-maintainers |      |            |       | Hashgraph            |
+| Andrew Brandt          | andrewb1269hg | github-maintainers |      |            |       | Hashgraph            |
+| Richard Bair           | rbair23       | tsc                |      |            |       | Hashgraph            |
+| Leemon Baird           | lbaird        | tsc                |      |            |       | Hashgraph            |
+| George Spasov          | Perseverance  | tsc                |      |            |       | LimeChain            |
+| Hendrik Ebbers         | hendrikebbers | tsc                |      |            |       | Hashgraph            |
+| Alex Popowycz          | popowycz      | tsc                |      |            |       | Hedera               |
+| Stoyan Panayotov       | stoqnkpL      | tsc                |      |            |       | LimeChain            |
+| Milan Wiercx Van Rhijn | MilanWR       | tsc                |      |            |       | MilanWR.com (8BEES)  |
+| Michael Kantor         | kantorcodes   | tsc                |      |            |       | Hashgraph Online     |
 
 ## Emeritus Maintainers
 
