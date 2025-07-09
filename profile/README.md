@@ -21,3 +21,21 @@ The following documents will help you to understand our vision, workflows and co
 - We track a [transfer document for community driven projects](https://github.com/hiero-ledger/hiero/blob/main/community-transition.md) that shows the current state of the transition of community projects to Hiero.
 - Our [public calender](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week) contains the open TSC and community meetings.
 - Join our [community discussions](https://discord.lfdecentralizedtrust.org/) on discord.
+
+## Open Community Meetings and TSC schedules
+
+| Community Meeting   | Meeting occurrance link                                                                                           |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| TSC meeting         | [LFX Calendar link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week&occurrence=1758031200) |
+| Community Call      | [LFX Calendar link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week&occurrence=1758207600) |
+| Python SDK          | [LFX Calendar link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week&occurrence=1758117600) |
+| Docs                | [LFX Calendar link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week&occurrence=1757516400) |
+| Solo                | [LFX Calendar link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week&occurrence=1757433600) |
+| Solo Action         | [LFX Calendar link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week&occurrence=1757944800) |
+| SDK                 | [LFX Calendar link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week&occurrence=1757340000) |
+
+## LFX Tooling
+
+- [LFX Individual Dashboard](https://openprofile.dev/) - Is a self-service hub for all of your open source activity and great tool to easily access past meeting recordings. [Read More](https://docs.linuxfoundation.org/lfx/my-profile)
+- [LFX Insights](https://insights.linuxfoundation.org/) - This tool helps developers and their organizations make smarter decisions about the open source projects by tracking their project's health.[Read More](https://insights.linuxfoundation.org/docs/introduction/what-is-insights/) [Contribute!](https://github.com/linuxfoundation/insights)
+- [Learn more about LFX](https://lfx.linuxfoundation.org/)
