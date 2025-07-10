@@ -6,7 +6,7 @@ For an example on how to add these links and format them, use: https://github.co
 Having this accessible can help reducing time looking for these sites.
 -->
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10697/badge)](https://bestpractices.coreinfrastructure.org/projects/10697)
-
+[![License](https://img.shields.io/badge/license-apache2-blue.svg)](LICENSE.md)
 <!---
 Any additional links useful to the team. For example, meetings, events, training material, etc.
 -->
@@ -62,4 +62,4 @@ Recognition to past contributors or mentions of collaborating companies.
 
 ## License
 
-- Hiero's source code is available under the **Apache License, Version 2.0 (Apache-2.0)**
+- Hiero's source code is available under the **Apache License, Version 2.0 (Apache-2.0)**[Apache License 2.0](LICENSE.md)
