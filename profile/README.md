@@ -38,7 +38,7 @@ The following documents will help you to understand our vision, workflows and co
 
 LFX is Linux Foundation’s comprehensive, free-to-use open source project collaboration platform designed to help developers, maintainers, organizations, and contributors streamline and scale open source initiatives.
 Linux Foundation hosted projects gain valuable support from these tools for streamlined project monitoring and administration.
+[Learn more about LFX](https://lfx.linuxfoundation.org/).
 
-- [LFX Individual Dashboard](https://openprofile.dev/) - Is a self-service hub for all of your open source activity and great tool to easily access past meeting recordings. [Read More](https://docs.linuxfoundation.org/lfx/my-profile)
-- [LFX Insights](https://insights.linuxfoundation.org/) - This tool helps developers and their organizations make smarter decisions about the open source projects by tracking their project's health.[Read More](https://insights.linuxfoundation.org/docs/introduction/what-is-insights/) [Contribute!](https://github.com/linuxfoundation/insights)
-- [Learn more about LFX](https://lfx.linuxfoundation.org/)
+- [LFX Individual Dashboard](https://openprofile.dev/) - Is a self-service hub for all of your open source activity and great tool to easily access past meeting recordings. [Read More](https://docs.linuxfoundation.org/lfx/my-profile).
+- [LFX Insights](https://insights.linuxfoundation.org/) - This tool helps developers and their organizations make smarter decisions about the open source projects by tracking their project's health.[Read More](https://insights.linuxfoundation.org/docs/introduction/what-is-insights/) [Contribute!](https://github.com/linuxfoundation/insights).
