@@ -15,7 +15,7 @@ Any additional links useful to the team. For example, meetings, events, training
  - [Hiero Website](https://hiero.org)
    
 <!---
-About Project information needs to be comprehensive and useful for new members to be able to understand it's goals. 
+About Project information needs to be comprehensive and useful for new members to be able to understand its goals. 
 -->
 ## About Project
 
@@ -29,7 +29,7 @@ Getting Started information needs to offer guidance on how to get familiarized w
 - For a comprehensive and detailed overview of Hiero, please refer to the technical documentation and related resources available on our [website](https://hiero.org).
 
 <!---
-Contibute links and guidelines that the project is following. References to exceptions to the main guidelines need to be includded. 
+Contribute links and guidelines that the project is following. References to exceptions to the main guidelines need to be included. 
 Security file information and reference to security guidelines.
 By default, refer to https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md unless the project has a different local file.
 -->
@@ -54,7 +54,7 @@ This section should also reference it unless the project has been approved by th
 -->
 ## About Users and Maintainers
 
-- Users and Maintainers guidelies are located in **[Hiero-Ledger's roles and groups guidelines](https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md#maintainers).**
+- Users and Maintainers guidelines are located in **[Hiero-Ledger's roles and groups guidelines](https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md#maintainers).**
 
 <!---
 Recognition to past contributors or mentions of collaborating companies.
