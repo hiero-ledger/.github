@@ -66,7 +66,7 @@ $ git add <file>
 We do not have a hard definition for commit messages but it is best practice to use the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
 
 8. Enable [GPG signing](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification/signing-commits) of your commits within the repo.
-   Signing all your commits with your public key allows the comunity to verify it's really you. If you forgot to sign some
+   Signing all your commits with your public key allows the community to verify it's really you. If you forgot to sign some
    commits that are part of the contribution, you can
    ask [git to rewrite your commit history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History).
 
@@ -86,7 +86,7 @@ $ git commit --signoff -S -m "Your commit message"
 
 ### Sign Off
 
-The sign-off is a simple line at the end of a commit message. All commits needs to be signed. Your signature certifies
+The sign-off is a simple line at the end of a commit message. All commits need to be signed. Your signature certifies
 that you wrote the code or otherwise have the right to contribute the material. First, read the
 [Developer Certificate of Origin](https://developercertificate.org/) (DCO) to fully understand its terms.
 
