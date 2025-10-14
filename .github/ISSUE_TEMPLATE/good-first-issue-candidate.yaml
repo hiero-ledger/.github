@@ -19,7 +19,7 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: "Problem"
+      label: Problem
       description: What is the problem you are trying to solve?
       placeholder: |
         AT THIS SECTION YOU NEED TO DESCRIBE THE ISSUE IN A WAY THAT IS UNDERSTANDABLE TO NEW CONTRIBUTORS.
@@ -47,8 +47,8 @@ body:
         AT THIS SECTION YOU NEED TO DESCRIBE THE TECHNICAL STEPS NEEDED TO SOLVE THE ISSUE.
         PLEASE BREAK DOWN THE STEPS AS MUCH AS POSSIBLE AND MAKE SURE THAT THEY ARE EASY TO FOLLOW.
         IF POSSIBLE, ADD LINKS TO THE RELEVANT DOCUMENTATION AND/OR CODE.
-      validations:
-        required: true
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: | 
