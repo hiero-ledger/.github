@@ -53,7 +53,9 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: | 
+      value: |
+        ------
+        
         ## Making Contributions
         
         If you have never contributed to an open source project at GitHub, the following step-by-step guide will introduce you to the workflow.
