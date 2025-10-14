@@ -10,7 +10,7 @@ body:
         
         This issue targets first time contributors to [Hiero](https://hiero.org).
         We know that creating a pull request (PR) is a major barrier for new contributors.
-        The goal of this issue (and all other issues labeled by) [**'Good First Issue'**](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Ahiero-ledger+archived%3Afalse+label%3A%22good+first+issue%22+) is to help you make your first contribution to Hiero.
+        The goal of this issue (and all other issues labeled with) [**'Good First Issue'**](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Ahiero-ledger+archived%3Afalse+label%3A%22good+first+issue%22+) is to help you make your first contribution to Hiero.
 
         Before submitting:
         * Try searching the existing issues and discussions to see if something similar has been discussed previously
