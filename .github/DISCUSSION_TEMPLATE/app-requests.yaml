@@ -1,8 +1,6 @@
 # Template metadata
 title: "GitHub App Integration Request"
-about: "Use this template to request installation or configuration of a GitHub App for specific repositories."
 labels: ["app-request"]
-category: "App Requests"
 
 # Template body
 body:
