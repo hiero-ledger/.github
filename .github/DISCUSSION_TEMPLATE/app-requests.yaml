@@ -1,4 +1,4 @@
-# Template metadata
+ult# Template metadata
 title: "GitHub App Integration Request"
 labels: ["app-request"]
 
@@ -48,11 +48,21 @@ body:
         @hiero-ledger/sec-ops
         @hiero-ledger/github-maintainers
 
-  - type: input
+  - type: textarea
     id: additional_teams
     attributes:
       label: "Additional Teams to Include (optional)"
       description: "Add any other organization teams to notify about this request. Separate multiple teams with spaces."
-      placeholder: "@hiero-ledger/<team-x> @hiero-ledger/<team-y> @<github-user-name>"
+      placeholder: |
+        Please include the following teams:
+        - @hiero-ledger/security-maintainers
+        - @hiero-ledger/prod-security
+        - @hiero-ledger/sec-ops
+        - @hiero-ledger/github-maintainers
+      value: | 
+        @hiero-ledger/security-maintainers
+        @hiero-ledger/prod-security
+        @hiero-ledger/sec-ops
+        @hiero-ledger/github-maintainers
     validations:
       required: false
