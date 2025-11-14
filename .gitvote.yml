@@ -176,14 +176,14 @@ profiles:
     #   discussions:
     #     category: null
 
-  all_members:
+  allMembers:
     duration: 1w
     pass_threshold: 67
     close_on_passing: true
     close_on_passing_min_wait: "3 days"
     periodic_status_check: "1 day"
 
-  all_maintainers:
+  allMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -223,7 +223,7 @@ profiles:
         - tsc-eligibility-check-maintainers
         - hashgraph-online-standards-sdk-js-maintainers
 
-  github_maintainers:
+  githubMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -232,7 +232,7 @@ profiles:
       teams:
         - github-maintainers
 
-  hiero_mirror_node_maintainers:
+  hieroMirrorNodeMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -241,7 +241,7 @@ profiles:
       teams:
         - hiero-mirror-node-maintainers
 
-  hiero_local_node_maintainers:
+  hieroLocalNodeMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -250,7 +250,7 @@ profiles:
       teams:
         - hiero-local-node-maintainers
 
-  hiero_sdk_python_maintainers:
+  hieroSdkPythonMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -259,7 +259,7 @@ profiles:
       teams:
         - hiero-sdk-python-maintainers
 
-  hiero_sdk_swift_maintainers:
+  hieroSdkSwiftMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -268,7 +268,7 @@ profiles:
       teams:
         - hiero-sdk-swift-maintainers
 
-  hiero_did_sdk_python_maintainers:
+  hieroDidSdkPythonMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -277,7 +277,7 @@ profiles:
       teams:
         - hiero-did-sdk-python-maintainers
 
-  hiero_sdk_rust_maintainers:
+  hieroSdkRustMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -286,7 +286,7 @@ profiles:
       teams:
         - hiero-sdk-rust-maintainers
 
-  hiero_sdk_java_maintainers:
+  hieroSdkJavaMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -295,7 +295,7 @@ profiles:
       teams:
         - hiero-sdk-java-maintainers
 
-  hiero_sdk_js_maintainers:
+  hieroSdkJsMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -304,7 +304,7 @@ profiles:
       teams:
         - hiero-sdk-js-maintainers
 
-  hiero_sdk_cpp_maintainers:
+  hieroSdkCppMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -313,7 +313,7 @@ profiles:
       teams:
         - hiero-sdk-cpp-maintainers
 
-  hiero_sdk_tck_maintainers:
+  hieroSdkTckMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -322,7 +322,7 @@ profiles:
       teams:
         - hiero-sdk-tck-maintainers
 
-  hiero_sdk_go_maintainers:
+  hieroSdkGoMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -331,7 +331,7 @@ profiles:
       teams:
         - hiero-sdk-go-maintainers
 
-  hiero_solo_action_maintainers:
+  hieroSoloActionMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -340,7 +340,7 @@ profiles:
       teams:
         - hiero-solo-action-maintainers
 
-  hiero_gradle_conventions_maintainers:
+  hieroGradleConventionsMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -349,7 +349,7 @@ profiles:
       teams:
         - hiero-gradle-conventions-maintainers
 
-  hiero_block_node_maintainers:
+  hieroBlockNodeMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -358,7 +358,7 @@ profiles:
       teams:
         - hiero-block-node-maintainers
 
-  hiero_consensus_node_maintainers:
+  hieroConsensusNodeMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -367,7 +367,7 @@ profiles:
       teams:
         - hiero-consensus-node-maintainers
 
-  hiero_protobufs_maintainers:
+  hieroProtobufsMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -376,7 +376,7 @@ profiles:
       teams:
         - hiero-protobufs-maintainers
 
-  hiero_cli_maintainers:
+  hieroCliMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -385,7 +385,7 @@ profiles:
       teams:
         - hiero-cli-maintainers
 
-  hiero_docs_maintainers:
+  hieroDocsMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -394,7 +394,7 @@ profiles:
       teams:
         - hiero-docs-maintainers
 
-  hiero_mirror_node_explorer_maintainers:
+  hieroMirrorNodeExplorerMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -403,7 +403,7 @@ profiles:
       teams:
         - hiero-mirror-node-explorer-maintainers
 
-  hiero_json_rpc_relay_maintainers:
+  hieroJsonRpcRelayMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -412,7 +412,7 @@ profiles:
       teams:
         - hiero-json-rpc-relay-maintainers
 
-  hiero_hederium_maintainers:
+  hieroHederiumMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -421,7 +421,7 @@ profiles:
       teams:
         - hiero-hederium-maintainers
 
-  hiero_identity_standards_maintainers:
+  hieroIdentityStandardsMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -430,7 +430,7 @@ profiles:
       teams:
         - hiero-identity-standards-maintainers
 
-  hiero_improvement_proposals_maintainers:
+  hieroImprovementProposalsMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -439,7 +439,7 @@ profiles:
       teams:
         - hiero-improvement-proposals-maintainers
 
-  hiero_website_maintainers:
+  hieroWebsiteMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -448,7 +448,7 @@ profiles:
       teams:
         - hiero-website-maintainers
 
-  homebrew_tools_maintainers:
+  homebrewToolsMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -457,7 +457,7 @@ profiles:
       teams:
         - homebrew-tools-maintainers
 
-  security_maintainers:
+  securityMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -466,7 +466,7 @@ profiles:
       teams:
         - security-maintainers
 
-  sdk_collaboration_hub_maintainers:
+  sdkCollaborationHubMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -475,7 +475,7 @@ profiles:
       teams:
         - sdk-collaboration-hub-maintainers
 
-  solo_maintainers:
+  soloMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -484,7 +484,7 @@ profiles:
       teams:
         - solo-maintainers
 
-  tsc_eligibility_check_maintainers:
+  tscEligibilityCheckMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -493,7 +493,7 @@ profiles:
       teams:
         - tsc-eligibility-check-maintainers
 
-  hashgraph_online_standards_sdk_js_maintainers:
+  hashgraphOnlineStandardsSdkJsMaintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
