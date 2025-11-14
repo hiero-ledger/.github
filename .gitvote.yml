@@ -176,14 +176,14 @@ profiles:
     #   discussions:
     #     category: null
 
-  all-members:
+  all_members:
     duration: 1w
     pass_threshold: 67
     close_on_passing: true
     close_on_passing_min_wait: "3 days"
     periodic_status_check: "1 day"
 
-  all-maintainers:
+  all_maintainers:
     duration: 2w
     pass_threshold: 67
     periodic_status_check: "2 days"
@@ -223,281 +223,281 @@ profiles:
         - tsc-eligibility-check-maintainers
         - hashgraph-online-standards-sdk-js-maintainers
 
-github-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - github-maintainers
+  github_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - github-maintainers
 
-hiero-mirror-node-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-mirror-node-maintainers
+  hiero_mirror_node_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-mirror-node-maintainers
 
-hiero-local-node-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-local-node-maintainers
+  hiero_local_node_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-local-node-maintainers
 
-hiero-sdk-python-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-sdk-python-maintainers
+  hiero_sdk_python_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-sdk-python-maintainers
 
-hiero-sdk-swift-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-sdk-swift-maintainers
+  hiero_sdk_swift_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-sdk-swift-maintainers
 
-hiero-did-sdk-python-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-did-sdk-python-maintainers
+  hiero_did_sdk_python_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-did-sdk-python-maintainers
 
-hiero-sdk-rust-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-sdk-rust-maintainers
+  hiero_sdk_rust_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-sdk-rust-maintainers
 
-hiero-sdk-java-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-sdk-java-maintainers
+  hiero_sdk_java_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-sdk-java-maintainers
 
-hiero-sdk-js-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-sdk-js-maintainers
+  hiero_sdk_js_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-sdk-js-maintainers
 
-hiero-sdk-cpp-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-sdk-cpp-maintainers
+  hiero_sdk_cpp_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-sdk-cpp-maintainers
 
-hiero-sdk-tck-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-sdk-tck-maintainers
+  hiero_sdk_tck_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-sdk-tck-maintainers
 
-hiero-sdk-go-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-sdk-go-maintainers
+  hiero_sdk_go_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-sdk-go-maintainers
 
-hiero-solo-action-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-solo-action-maintainers
+  hiero_solo_action_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-solo-action-maintainers
 
-hiero-gradle-conventions-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-gradle-conventions-maintainers
+  hiero_gradle_conventions_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-gradle-conventions-maintainers
 
-hiero-block-node-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-block-node-maintainers
+  hiero_block_node_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-block-node-maintainers
 
-hiero-consensus-node-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-consensus-node-maintainers
+  hiero_consensus_node_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-consensus-node-maintainers
 
-hiero-protobufs-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-protobufs-maintainers
+  hiero_protobufs_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-protobufs-maintainers
 
-hiero-cli-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-cli-maintainers
+  hiero_cli_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-cli-maintainers
 
-hiero-docs-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-docs-maintainers
+  hiero_docs_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-docs-maintainers
 
-hiero-mirror-node-explorer-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-mirror-node-explorer-maintainers
+  hiero_mirror_node_explorer_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-mirror-node-explorer-maintainers
 
-hiero-json-rpc-relay-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-json-rpc-relay-maintainers
+  hiero_json_rpc_relay_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-json-rpc-relay-maintainers
 
-hiero-hederium-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-hederium-maintainers
+  hiero_hederium_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-hederium-maintainers
 
-hiero-identity-standards-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-identity-standards-maintainers
+  hiero_identity_standards_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-identity-standards-maintainers
 
-hiero-improvement-proposals-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-improvement-proposals-maintainers
+  hiero_improvement_proposals_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-improvement-proposals-maintainers
 
-hiero-website-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hiero-website-maintainers
+  hiero_website_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hiero-website-maintainers
 
-homebrew-tools-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - homebrew-tools-maintainers
+  homebrew_tools_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - homebrew-tools-maintainers
 
-security-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - security-maintainers
+  security_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - security-maintainers
 
-sdk-collaboration-hub-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - sdk-collaboration-hub-maintainers
+  sdk_collaboration_hub_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - sdk-collaboration-hub-maintainers
 
-solo-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - solo-maintainers
+  solo_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - solo-maintainers
 
-tsc-eligibility-check-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - tsc-eligibility-check-maintainers
-  
-hashgraph-online-standards-sdk-js-maintainers:
-  duration: 2w
-  pass_threshold: 67
-  periodic_status_check: "2 days"
-  close_on_passing: false
-  allowed_voters:
-    teams:
-      - hashgraph-online-standards-sdk-js-maintainers
+  tsc_eligibility_check_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - tsc-eligibility-check-maintainers
+
+  hashgraph_online_standards_sdk_js_maintainers:
+    duration: 2w
+    pass_threshold: 67
+    periodic_status_check: "2 days"
+    close_on_passing: false
+    allowed_voters:
+      teams:
+        - hashgraph-online-standards-sdk-js-maintainers
