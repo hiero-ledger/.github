@@ -49,10 +49,13 @@ body:
         AT THIS SECTION YOU NEED TO DESCRIBE THE TECHNICAL STEPS NEEDED TO SOLVE THE ISSUE.
         PLEASE BREAK DOWN THE STEPS AS MUCH AS POSSIBLE AND MAKE SURE THAT THEY ARE EASY TO FOLLOW.
         IF POSSIBLE, ADD LINKS TO THE RELEVANT DOCUMENTATION AND/OR CODE.
-  - type: markdown
+
+  - type: textarea
+    id: workflow
     attributes:
+      label: Workflow to Making Contributions
+      description: Instructions for new contributors
       value: |
-        ------
         
         ## Making Contributions
         
@@ -65,19 +68,26 @@ body:
         - [ ] **Work on the issue:** Follow the detailed description in our [CONTRIBUTING.md](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md) file.
         - [ ] **You did it 🎉:** We will merge the fix in the main branch. Thanks for being part of the Hiero community as an open-source contributor!
 
-        ------
-  - type: markdown
+  - type: textarea
+    id: hacktoberfest
     attributes:
+      label: Hacktoberfest
+      description: Hacktoberfest info (hidden until October 2026)
       value: |
         ## :jack_o_lantern: Hacktoberfest :jack_o_lantern:
         
-        At the time of the [Hacktoberfest](https://hacktoberfest.digitalocean.com) event we try to mark all PRs that solve any good first issue with the `hacktoberfest-accepted` label.
+        During the [Hacktoberfest](https://hacktoberfest.digitalocean.com) event we try to mark all PRs that solve any good first issue with the `hacktoberfest-accepted` label.
         If you want to resolve this issue as part of Hacktoberfest and we missed adding the label, simply add a comment to the issue or PR, and we will add it.
-        
-        ------
-  - type: markdown
+    validations:
+      required: false
+    hidden: true
+
+  - type: textarea
+    id: additional_questions
     attributes:
-      value: |
+      label: Additional Questions
+      description: Community links and general guidance
+      value: |        
         ## Additional Questions
         
         If you have any questions about the topic of this issue, please ask us directly by adding a comment below.
