@@ -9,55 +9,87 @@ body:
         ## Thanks for submitting a Good First Issue!
         This issue targets first time contributors to [Hiero](https://hiero.org).
         We know that creating a pull request (PR) is a major barrier for new contributors.
-        The goal of this issue (and all other issues labeled with) [**'Good First Issue'**](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Ahiero-ledger+archived%3Afalse+label%3A%22good+first+issue%22+) is to help you make your first contribution to Hiero.
 
         Before submitting:
         * Try searching the existing issues and discussions to see if something similar has been discussed previously.
-        * Try opening a GitHub discussion first to gather feedback and reach consensus.
-        * If this is a major enhancement, please open a [Hiero Improvement Proposal](https://github.com/hiero-ledger/hiero-improvement-proposals).
+        * Check if this issue is likely to be a Good First Issue [Good First Issue Guidelines](https://github.com/hiero-ledger/governance/blob/main/guidelines/good-first-issues.md).
 
         ------
   - type: textarea
-    id: problem
+    id: intro
     attributes:
-      label: Problem
-      description: What is the problem you are trying to solve?
-      placeholder: |
-        AT THIS SECTION YOU NEED TO DESCRIBE THE ISSUE IN A WAY THAT IS UNDERSTANDABLE TO NEW CONTRIBUTORS.
+      label: 🆕🐥 First Timers Only
+      description: Who is this issue for?
+      value: |
+        This issue is reserved for people who have never contributed or have made minimal contributions to [Hiero](https://hiero.org).
+        We know that creating a pull request (PR) is a major barrier for new contributors.
+        The goal of this issue and all other issues in [**find a good first issue**](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Ahiero-ledger+archived%3Afalse+label%3A%22good+first+issue%22+) is to help you make your first contribution to the Hiero.
+    validations:
+      required: false
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: 👾 Description of the issue
+      description: |
+        DESCRIBE THE ISSUE IN A WAY THAT IS UNDERSTANDABLE TO NEW CONTRIBUTORS.
         YOU MUST NOT ASSUME THAT SUCH CONTRIBUTORS HAVE ANY KNOWLEDGE ABOUT THE CODEBASE OR HIERO.
         IT IS HELPFUL TO ADD LINKS TO THE RELEVANT DOCUMENTATION AND/OR CODE SECTIONS.
+      value: |
+        Edit here.
     validations:
       required: true
+  
   - type: textarea
     id: solution
     attributes:
-      label: Proposed Solution
-      description: What solution do you propose to solve the problem?
-      placeholder: |
+      label: 💡 Proposed Solution
+      description: |
         AT THIS SECTION YOU NEED TO DESCRIBE THE STEPS NEEDED TO SOLVE THE ISSUE.
-        PLEASE BREAK DOWN THE STEPS AS MUCH AS POSSIBLE AND MAKE SURE THAT THEY ARE EASY TO FOLLOW.
-        IF POSSIBLE, ADD LINKS TO THE RELEVANT DOCUMENTATION AND/OR CODE SECTIONS.
+        PLEASE BREAK DOWN THE STEPS AS MUCH AS POSSIBLE AND MAKE SURE THAT THEY
+        ARE EASY TO FOLLOW. IF POSSIBLE, ADD LINKS TO THE RELEVANT
+        DOCUMENTATION AND/OR CODE SECTIONS.
+      value: |
+        Edit here.
     validations:
       required: true
+  
   - type: textarea
-    id: Implementation
+    id: implementation
     attributes:
-      label: Implementation
-      description: What technical steps need to be taken?
-      placeholder: |
+      label: 👩‍💻 Implementation Steps
+      description: |
         AT THIS SECTION YOU NEED TO DESCRIBE THE TECHNICAL STEPS NEEDED TO SOLVE THE ISSUE.
         PLEASE BREAK DOWN THE STEPS AS MUCH AS POSSIBLE AND MAKE SURE THAT THEY ARE EASY TO FOLLOW.
         IF POSSIBLE, ADD LINKS TO THE RELEVANT DOCUMENTATION AND/OR CODE.
+      value: |
+        Edit here. Example provided below.
+    validations:
+      required: true
+
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: ✅ Acceptance Criteria
+      description: |
+        EDIT OR EXPAND THE CHECKLIST ON WHAT IS REQUIRED TO BE ABLE TO MERGE A PULL REQUEST FOR THIS ISSUE
+      value: |
+        To be able to merge a pull request for this issue, we need:
+        - [ ] **Changelog Entry:** Correct changelog entry
+        - [ ] **Signed commits:** commits must be DCO and GPG key signed
+        - [ ] **All Tests Pass:** our workflow checks like unit and integration tests must pass
+        - [ ] **Issue is Solved:** The implementation fully addresses the issue requirements as described above
+        - [ ] **No Further Changes are Made:** Code review feedback has been addressed and no further changes are requested
+    validations:
+      required: true
 
   - type: textarea
     id: workflow
     attributes:
-      label: Workflow to Making Contributions
+      label: 📋 Step-by-Step Contribution Guide
       description: Instructions for new contributors
       value: |
-
-        ## Making Contributions
-
         If you have never contributed to an open source project at GitHub, the following step-by-step guide will introduce you to the workflow.
         More information and concrete samples for shell commands for each step can be found in our [CONTRIBUTING.md](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md) file.
         A more detailed general documentation of the GitHub PR workflow can be found [here](https://github.com/firstcontributions/first-contributions/blob/master/README.md).
@@ -67,16 +99,18 @@ body:
         - [ ] **Work on the issue:** Follow the detailed description in our [CONTRIBUTING.md](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md) file.
         - [ ] **You did it 🎉:** We will merge the fix in the main branch. Thanks for being part of the Hiero community as an open-source contributor!
 
+        ***IMPORTANT*** Your pull request CANNOT BE MERGED until your commits are each with `git commit -S -s -m "chore: your commit message"` with a GPG key setup.
+
   - type: textarea
     id: additional_questions
     attributes:
-      label: Additional Questions
-      description: Community links and general guidance
+      label: 🤔 Additional Information
+      description: Provide any extra resources or context for contributors to solve this good first issue
       value: |
         ## Additional Questions
 
         If you have any questions about the topic of this issue, please ask us directly by adding a comment below.
-        Additionally, we invite you to join our community on our [Discord](https://discord.gg/kEnnmB9A) server or attend our [public community calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week).
+        Additionally, we invite you to join our community on our [Discord](https://discord.gg/hyperledger) server or attend our [public community calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week).
 
         A general manual about open-source contributions can be found [here](https://github.com/firstcontributions/first-contributions/blob/master/README.md).
 
