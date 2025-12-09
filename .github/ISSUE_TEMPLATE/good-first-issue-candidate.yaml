@@ -1,6 +1,7 @@
 name: Good First Issue Candidate
 description: Suggest an idea for this project
 labels: [ "Good First Issue Candidate" ]
+type: Feature
 body:
   - type: markdown
     attributes:
@@ -66,7 +67,6 @@ body:
     validations:
       required: true
 
-
   - type: textarea
     id: acceptance-criteria
     attributes:
@@ -106,8 +106,6 @@ body:
       label: 🤔 Additional Information
       description: Provide any extra resources or context for contributors to solve this good first issue
       value: |
-        ## Additional Questions
-
         If you have any questions about the topic of this issue, please ask us directly by adding a comment below.
         Additionally, we invite you to join our community on our [Discord](https://discord.gg/hyperledger) server or attend our [public community calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week).
 
