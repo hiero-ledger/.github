@@ -1,7 +1,6 @@
 name: Good First Issue Candidate
 description: Suggest an idea for this project
 labels: [ "Good First Issue Candidate" ]
-type: Feature
 body:
   - type: markdown
     attributes:
