@@ -25,4 +25,4 @@ jobs:
         with:
           source_repo_path: "hiero-ledger/.github"
           upstream_branch: "main"
-          pr_labels: "template-sync"
+          pr_labels: "template-sync" 
