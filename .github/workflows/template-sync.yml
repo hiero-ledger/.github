@@ -1,0 +1,28 @@
+name: Sync Templates from hiero-ledger/.github
+# Creates a PR to sync GitHub templates from hiero-ledger/.github to this repository.
+# Same named custom templates in the target repo will be proposed overwritten in the PR.
+# Add target-repo/.github/.templatesyncignore to selectively ignore templates
+
+on:
+  schedule:
+    - cron: "0 0 * * 1" # 00:00 UTC, Monday
+  workflow_dispatch:    #allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout target repo
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 #6.0.1
+
+      - name: actions-template-sync
+        uses: AndreasAugustin/actions-template-sync@8ec19a5f2721ffb81ff809aa340ddf75e6a85ea6 #v2.5.2
+        with:
+          source_repo_path: "hiero-ledger/.github"
+          upstream_branch: "main"
+          pr_labels: "template-sync"
