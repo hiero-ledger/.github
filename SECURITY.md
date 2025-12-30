@@ -40,7 +40,6 @@ The current Hiero security team is:
 | Roger Barker             | <>                     | <>         | Project Maintainer        |
 | Richard Bair             | <>                     | <>         | Project Maintainer        |
 | Nathan Klick             | <>                     | <>         | Security Advisor          |
-| Deepak Rathore           | <>                     | <>         | Security Advisor          |
 
 The security team for Hiero must include at least three project Maintainers that agree to carry out the following duties and responsibilities. Members are added and removed from the team via approved Pull Requests to this repository. For additional background into the role of the security team, see the [People Infrastructure](https://lf-decentralized-trust.github.io/governance/governing-documents/SECURITY-POLICY#people-infrastructure) section of the LF Decentralized Trust Security Policy.
 
