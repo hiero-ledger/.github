@@ -194,5 +194,9 @@ If that is not the case please create an issue for a bug or enhancement.
 Please comment on the given issue that you want to work on it.
 Once a member of the team has assigned you to the issue you can start working on it.
 
+## About Users and Maintainers
+
+- Users and Maintainers guidelies are located in **[Hiero-Ledger's roles and groups guidelines](https://github.com/hiero-ledger/governance/blob/main/roles/roles-and-groups.md#maintainers).**
+
 ## Attribution
 This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
