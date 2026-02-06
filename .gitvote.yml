@@ -187,7 +187,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - github-maintainers
@@ -227,7 +227,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - github-maintainers
@@ -236,7 +236,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-mirror-node-maintainers
@@ -245,7 +245,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-local-node-maintainers
@@ -254,7 +254,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-sdk-python-maintainers
@@ -263,7 +263,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-sdk-swift-maintainers
@@ -272,7 +272,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-did-sdk-python-maintainers
@@ -281,7 +281,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-sdk-rust-maintainers
@@ -290,7 +290,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-sdk-java-maintainers
@@ -299,7 +299,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-sdk-js-maintainers
@@ -308,7 +308,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-sdk-cpp-maintainers
@@ -317,7 +317,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-sdk-tck-maintainers
@@ -326,7 +326,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-sdk-go-maintainers
@@ -335,7 +335,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-solo-action-maintainers
@@ -344,7 +344,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-gradle-conventions-maintainers
@@ -353,7 +353,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-block-node-maintainers
@@ -362,7 +362,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-consensus-node-maintainers
@@ -371,7 +371,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-protobufs-maintainers
@@ -380,7 +380,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-cli-maintainers
@@ -389,7 +389,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-docs-maintainers
@@ -398,7 +398,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-mirror-node-explorer-maintainers
@@ -407,7 +407,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-json-rpc-relay-maintainers
@@ -416,7 +416,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-hederium-maintainers
@@ -425,7 +425,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-identity-standards-maintainers
@@ -434,7 +434,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-improvement-proposals-maintainers
@@ -443,7 +443,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hiero-website-maintainers
@@ -452,7 +452,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - homebrew-tools-maintainers
@@ -461,7 +461,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - security-maintainers
@@ -470,7 +470,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - sdk-collaboration-hub-maintainers
@@ -479,7 +479,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - solo-maintainers
@@ -488,7 +488,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - tsc-eligibility-check-maintainers
@@ -497,7 +497,7 @@ profiles:
     duration: 2w
     pass_threshold: 66.66
     periodic_status_check: "2 days"
-    close_on_passing: false
+    close_on_passing: true
     allowed_voters:
       teams:
         - hashgraph-online-standards-sdk-js-maintainers
