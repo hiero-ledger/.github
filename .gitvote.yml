@@ -191,6 +191,7 @@ profiles:
     allowed_voters:
       teams:
         - github-maintainers
+        - hashgraph-online-standards-sdk-js-maintainers
         - hiero-mirror-node-maintainers
         - hiero-local-node-maintainers
         - hiero-sdk-swift-maintainers
@@ -217,11 +218,11 @@ profiles:
         - hiero-improvement-proposals-maintainers
         - hiero-website-maintainers
         - homebrew-tools-maintainers
+        - roadmap-maintainers
         - security-maintainers
         - sdk-collaboration-hub-maintainers
         - solo-maintainers
         - tsc-eligibility-check-maintainers
-        - hashgraph-online-standards-sdk-js-maintainers
 
   githubMaintainers:
     duration: 2w
@@ -232,6 +233,15 @@ profiles:
       teams:
         - github-maintainers
 
+  hashgraphOnlineStandardsSdkJsMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - hashgraph-online-standards-sdk-js-maintainers
+  
   hieroMirrorNodeMaintainers:
     duration: 2w
     pass_threshold: 66.66
@@ -457,6 +467,15 @@ profiles:
       teams:
         - homebrew-tools-maintainers
 
+  roadmapMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - roadmap-maintainers
+
   securityMaintainers:
     duration: 2w
     pass_threshold: 66.66
@@ -492,12 +511,3 @@ profiles:
     allowed_voters:
       teams:
         - tsc-eligibility-check-maintainers
-
-  hashgraphOnlineStandardsSdkJsMaintainers:
-    duration: 2w
-    pass_threshold: 66.66
-    periodic_status_check: "2 days"
-    close_on_passing: true
-    allowed_voters:
-      teams:
-        - hashgraph-online-standards-sdk-js-maintainers
