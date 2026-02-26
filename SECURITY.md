@@ -67,7 +67,7 @@ Open a GitHub security vulnerability report: Open a draft security advisory on t
 
 For Hedera repositories details on the bug bounty program can be found at: [Hedera Bug Bounty Program](https://hedera.com/bounty).
 
-For general questions, excluding security reports, please email the [Hiero Security Team](mailto:hiero@lists.lfdecentralizedtrust.org).
+For general questions, excluding security reports, please email the [Hiero Security Team](mailto:hiero-prodsec@lists.lfdecentralizedtrust.org).
 
 ## CNA/CVE Reporting
 
