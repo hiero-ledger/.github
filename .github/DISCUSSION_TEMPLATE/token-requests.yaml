@@ -1,0 +1,41 @@
+# Template metadata
+title: "GitHub API Token Requests"
+labels: ["token-request"]
+
+# Template body
+body:
+  - type: input
+    id: token_type
+    attributes:
+      label: "Token Type"
+      description: "Fine-grained or Classic Token"
+      placeholder: "Example: Fine-grained"
+    validations:
+      required: true
+
+  - type: textarea
+    id: duration
+    attributes:
+      label: "Token Duration"
+      description: "How long is the token needed for?"
+      placeholder: "Example: 30 days"
+    validations:
+      required: true
+
+  - type: textarea
+    id: repository_access
+    attributes:
+      label: "Token Repo Access"
+      description: "What repos does the token need access to?"
+      placeholder: "Example: all"
+    validations:
+      required: true
+
+  - type: textarea
+    id: token_permissions
+    attributes:
+      label: "Token Permissions"
+      description: "What permissions does the token need and why?"
+      placeholder: "Example: Metadata (Read-only) -> To fetch repo information"
+    validations:
+      required: true
