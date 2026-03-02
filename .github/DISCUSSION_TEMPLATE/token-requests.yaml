@@ -26,7 +26,7 @@ body:
     id: repository_access
     attributes:
       label: "Token Repo Access"
-      description: "What repos is this token needed in?"
+      description: "What repos does the token need access to?"
       placeholder: "Example: all"
     validations:
       required: true
