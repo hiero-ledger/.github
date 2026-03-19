@@ -92,6 +92,7 @@ In creating patches and new releases that address security vulnerabilities, Hier
 
 **Snyk**
 
+[Snyk](https://snyk.io/) is a developer-friendly security platform designed to find and fix vulnerabilities in code, open-source dependencies, containers, and infrastructure-as-code (IaC).
 
 **StepSecurity**
 
