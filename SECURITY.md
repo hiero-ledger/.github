@@ -21,6 +21,7 @@ This document has the following sections:
 - [Embargo List](#embargo-list)
 - [GitHub Security Advisories](#github-security-advisories)
 - [Private Patch Deployment Infrastructure](#private-patch-deployment-infrastructure)
+- [Security Tools and Processes in Hiero Projects](#security-tools-and-processes-in-hiero-projects)
 
 ## What Is a Vulnerability Disclosure Policy?
 
@@ -86,3 +87,28 @@ Hiero uses [GitHub Security Advisories](https://docs.github.com/en/code-security
 ## Private Patch Deployment Infrastructure
 
 In creating patches and new releases that address security vulnerabilities, Hiero uses the private development features of GitHub for security vulnerabilities. [GitHub](https://docs.github.com/en/code-security) has extensive documentation about these features.
+
+## Security Tools and Processes in Hiero Projects
+
+**Snyk**
+
+
+**StepSecurity**
+
+[StepSecurity](https://www.stepsecurity.io/) is a software supply chain protection platform that secures CI/CD pipelines against attacks by monitoring for malicious activity like credential theft or code tampering.
+
+In Hiero, StepSecurity helps us:
+
+- Harden runner - this step locks down the runners to ensure security throughout the run. We are also able to audit the inbound and outbound calls of the runners
+- Explicitly setting permissions on workflows - prevents overpermissioned workflows.
+- Pinning commit hashes rather than versions for all actions to ensure we don't update if a tag move to a malicious commit.
+- Step security forks actions that we use but are not actively maintained. This ensures we have updated, secure actions that are consistently maintained and protected rather than using old actions that may be abandonded.
+- Additional features not covered in this PR. In general they're a good starting point for making the workflows as secure.
+
+[This](https://github.com/hiero-ledger/hiero-enterprise-java/pull/12) is an example on StepSecurity scans and suggested solutions.  
+
+**Repo Audits**
+
+Repo audits are performed to ensure all workflows and settings are appropriately configured in a repository. An initial full repo audit is also performed as part of [Hashgraph repo transters](https://github.com/hiero-ledger/governance/blob/main/processes/hashgraph-transfer-checklist.md), [community repo transfers](https://github.com/hiero-ledger/governance/blob/main/processes/community-transfer-checklist.md) and [new repo creation](https://github.com/hiero-ledger/governance/blob/main/processes/new-repo-creation.md).
+
+[This](https://github.com/hiero-ledger/governance/issues/250) is an example of the template for a repo audit. 
