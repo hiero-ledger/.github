@@ -192,6 +192,7 @@ profiles:
       teams:
         - github-maintainers
         - hashgraph-online-standards-sdk-js-maintainers
+        - hiero-enterprise-java-maintainers
         - hiero-mirror-node-maintainers
         - hiero-local-node-maintainers
         - hiero-sdk-swift-maintainers
@@ -242,7 +243,16 @@ profiles:
     allowed_voters:
       teams:
         - hashgraph-online-standards-sdk-js-maintainers
-  
+        
+hieroEnterpriseJavaMaintainers:
+    duration: 2w
+    pass_threshold: 66.66
+    periodic_status_check: "2 days"
+    close_on_passing: true
+    allowed_voters:
+      teams:
+        - hiero-enterprise-java-maintainers
+
   hieroMirrorNodeMaintainers:
     duration: 2w
     pass_threshold: 66.66
