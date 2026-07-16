@@ -1,12 +1,3 @@
-# Happening Soon (July 7 in Berlin, Germany)
-
-<img width="878" height="422" alt="hiero-community-day-2026" src="https://github.com/user-attachments/assets/66421c11-afa3-4830-b7b3-edf6e31f74e4" />
-
-Are you attending [WeAreDevelopers World Congress](https://www.wearedevelopers.com/world-congress/?utm_campaign=Tickets_WWC26_Berlin_Search_DACH&utm_term=world+congress&utm_source=google_ads&utm_medium=cpc&utm_content=22828467519&hsa_ver=3&hsa_acc=3107839148&hsa_mt=b&hsa_src=g&hsa_cam=22828467519&hsa_grp=199974997184&hsa_tgt=kwd-57154048&hsa_kw=world+congress&hsa_ad=797064100078&hsa_net=adwords&gad_source=1&gad_campaignid=22828467519&gbraid=0AAAAADEgEv-lY_gQv1MlCiMRwolrCOGkd&gclid=Cj0KCQjwlLDQBhDjARIsAPlIefHgnCK43n7MOJBuPlR8jLJIOZMItgTSYu1SwqMSmh1j8pI_pURjZ4EaAs3IEALw_wcB) in Berlin?
-
-We invite you to attend Hiero's Community Day on July 7 and meet the Hiero Maintainers! [REGISTER HERE](https://luma.com/Hiero-day-berlin)
-
-[Learn More](https://hiero.org/blog/hiero-community-day-2026) about this event.
 
 # Hiero @ Github
 
