@@ -604,6 +604,9 @@ profiles:
   tscEligibilityCheckMaintainers:
     duration: 2w
     pass_threshold: 66.66
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
