@@ -67,7 +67,10 @@ profiles:
     #
     # The percentage is calculated based on the number of votes in favor and the
     # number of allowed voters (see allowed_voters field below for more details).
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
 
     # Allowed voters (optional)
     #
@@ -178,14 +181,20 @@ profiles:
 
   allMembers:
     duration: 1w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     close_on_passing: true
     close_on_passing_min_wait: "3 days"
     periodic_status_check: "1 day"
 
   allMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -234,7 +243,10 @@ profiles:
 
   githubMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -243,7 +255,10 @@ profiles:
 
   hashgraphOnlineStandardsSdkJsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -252,7 +267,10 @@ profiles:
 
   hekaIdentityPlatformMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -261,7 +279,10 @@ profiles:
 
   hieroCryptographyMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -270,7 +291,10 @@ profiles:
 
   hieroContractsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -279,7 +303,10 @@ profiles:
 
   hieroConsensusSpecificationsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -288,7 +315,10 @@ profiles:
         
   hieroEnterpriseJavaMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -297,7 +327,10 @@ profiles:
 
   hieroMirrorNodeMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -306,7 +339,10 @@ profiles:
 
   hieroLocalNodeMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -315,7 +351,10 @@ profiles:
 
   hieroSdkPythonMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -324,7 +363,10 @@ profiles:
 
   hieroSdkSwiftMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -333,7 +375,10 @@ profiles:
 
   hieroDidSdkJsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -342,7 +387,10 @@ profiles:
         
   hieroDidSdkPythonMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -351,7 +399,10 @@ profiles:
 
   hieroDidSdkMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -360,7 +411,10 @@ profiles:
 
   hieroSdkRustMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -369,7 +423,10 @@ profiles:
 
   hieroSdkJavaMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -378,7 +435,10 @@ profiles:
 
   hieroSdkJsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -387,7 +447,10 @@ profiles:
 
   hieroSdkCppMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -396,7 +459,10 @@ profiles:
 
   hieroSdkTckMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -405,7 +471,10 @@ profiles:
 
   hieroSdkGoMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -414,7 +483,10 @@ profiles:
 
   hieroSoloActionMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -423,7 +495,10 @@ profiles:
 
   hieroGradleConventionsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -432,7 +507,10 @@ profiles:
 
   hieroBlockNodeMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -441,7 +519,10 @@ profiles:
 
   hieroConsensusNodeMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -450,7 +531,10 @@ profiles:
 
   hieroProtobufsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -459,7 +543,10 @@ profiles:
 
   hieroCliMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -468,7 +555,10 @@ profiles:
 
   hieroDocsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -477,7 +567,10 @@ profiles:
 
   hieroMirrorNodeExplorerMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -486,7 +579,10 @@ profiles:
 
   hieroJsonRpcRelayMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -495,7 +591,10 @@ profiles:
 
   hieroHederiumMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -504,7 +603,10 @@ profiles:
 
   hieroIdentityStandardsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -513,7 +615,10 @@ profiles:
 
   hieroImprovementProposalsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -522,7 +627,10 @@ profiles:
 
   hieroWebsiteMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -531,7 +639,10 @@ profiles:
 
   hieroTriage:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -540,7 +651,10 @@ profiles:
 
   homebrewToolsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -549,7 +663,10 @@ profiles:
 
   identityCollaborationHubMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -558,7 +675,10 @@ profiles:
 
   roadmapMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -567,7 +687,10 @@ profiles:
 
   securityMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -576,7 +699,10 @@ profiles:
 
   sdkCollaborationHubMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -585,7 +711,10 @@ profiles:
 
   soloMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -594,7 +723,10 @@ profiles:
 
   soloDocsMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
+    pass_threshold_base:
+      votes_cast:
+        exclude_abstentions: true
     periodic_status_check: "2 days"
     close_on_passing: true
     allowed_voters:
@@ -603,7 +735,7 @@ profiles:
 
   tscEligibilityCheckMaintainers:
     duration: 2w
-    pass_threshold: 66.66
+    pass_threshold: 50.01
     pass_threshold_base:
       votes_cast:
         exclude_abstentions: true
