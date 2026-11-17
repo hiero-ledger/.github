@@ -185,7 +185,7 @@ If you found a bug in our code or want to suggest a new feature or improvement p
 We reserve issues for people who have never contributed to this project or any open source project in general.
 We know that creating a pull request (PR) is a major barrier for new contributors.
 The goal of issues labeled by **'good first issue'** is to help you make your first contribution.
-You can read about or workflows for **'good first issue'** handling [here](https://github.com/hiero-ledger/governance/blob/main/guidelines/good-first-issues.md).
+You can read about or workflows for **'good first issue'** handling [here](https://github.com/hiero-ledger/governance/blob/main/rules-and-guidelines/good-first-issues.md).
 
 This does not mean that contribution is only welcome for those issues.
 We are happy with any contribution.
